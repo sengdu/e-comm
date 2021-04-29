@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+	<!-- Your custom styles (optional) -->
+	<link href="style.css" rel="stylesheet">
+
+	<title>class-menu</title>
+</head>
+
+<body>
+	
+	<!--Navbar -->
+	<nav class="navbar navbar-expand-lg  navbar-light bg-dark ">
+		<img src="images/pizza-logo111.jpg" alt="logo" class="img-fluid" width="90">
+		<button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbar"
+		  aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon "></span>
+		</button>
+		<div class="collapse navbar-collapse " id="navbar">
+			<ul class="navbar-nav px-4 ">
+				<li class="nav-item ">
+					<a class="nav-link relative shake text-white" href="index.html"
+						>Home
+					</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-white" href="#" id="Link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Menu
+					</a>
+					<div class="dropdown-menu" aria-labelledby="Link">
+					  <a class="dropdown-item " href="copy.html">menu list</a>
+					  <a class="dropdown-item " href="class.html">class menu</a>
+					</div>
+				  </li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="features.html">Features</a>
+				</li>
+			</ul>
+		  <ul class="navbar-nav ml-auto nav-flex-icons">
+			<li class="nav-item">
+			  <a class="nav-link ">
+				<a href="#"><i class="fab fa-facebook fa-2x text-white animated  rotateIn"></i></a>
+			  </a>
+			</li>
+			<li class="nav-item px-2">
+			  <a class="nav-link">
+				<a href="#"><i class="fas fa-envelope-open-text text-white fa-2x"></i></a>
+			  </a>
+			</li>	
+		  </ul>
+		  <div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+			  <!--Content-->
+			  <div class="modal-content">
+				<button class="close text-dark A" type="button" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"> &times;</span>
+				</button>
+			
+				<!--Header-->
+				<div class="modal-header">
+				  <img src="images/facemen.jpg" alt="avatar" class="rounded-circle img-responsive">
+				</div>
+			
+				<!--Body-->
+				<div class="modal-body text-center mb-1">
+				  <h5 class="mt-1 mb-2 text-warning">Name Mode</h5>
+			
+				  <div class="md-form ml-0 mr-0">
+					<input type="password"  id="form29" class="form-control form-control-sm validate ml-0">
+					<label data-error="wrong" data-success="right" for="form29" class="ml-0">Enter password</label>
+				  </div>
+			
+				  <div class="text-center mt-4">
+					<button class="btn btn-danger ">Login <i class="fas fa-sign-in ml-1"></i></button>
+				  </div>
+				</div>
+			
+			  </div>
+			  <!--/.Content-->
+			</div>
+			</div>
+			<!--Modal: Login with Avatar Form-->
+			
+			<div class="text-center">
+			<a href="#" class="Nimg btn animated rotateIn text-danger bg-light" style="animation-duration: 4s;" data-toggle="modal" data-target="#modalLoginAvatar">SIGN IN</a>
+			</div>
+		</div>
+	  </nav>
+  <!--/.Navbar -->
+
+	<!--tabs-->
+	<div id="tabs" class="pt-5 pb-5 mt-5 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class=" col-12 mt-3 pt-3 pb-5">
+					<h1 class="text-center text-warning">SHOWING FRIDAY PROMOTION</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<ul class="nav nav-tabs nav-justified md-tabs btn-light-blue md-tabs" style="border-radius: 30px;" id="myTabJust" role="tablist"  style="color:rgb(120, 204, 196);" >
+						<li class= "nav-item" >
+						  <a class="nav-link active" id="home-tab-just" data-toggle="tab" href="#home-just" role="tab" aria-controls="home-just"
+							aria-selected="true">pizza</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" id="profile-tab-just" data-toggle="tab" href="#profile-just" role="tab" aria-controls="profile-just"
+							aria-selected="false">slad</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" id="contact-tab-just" data-toggle="tab" href="#contact-just" role="tab" aria-controls="contact-just"
+							aria-selected="false">cold drink</a>
+						</li>
+					  </ul>
+				</div>
+			</div>
+			 
+			<div class="tab-content card pt-5" id="myTabContentJust">
+	
+				<div class="tab-pane fade  show active py-2 p-2" id="home-just" role="tabpanel" aria-labelledby="home-tab-just">
+				 <div class="row">
+				  <div class="col-md-6">
+					<table>
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Vegetarian </a> <p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+	
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+	
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+					</table>
+					
+				  </div>
+				  <div class="col-md-6">
+					<table>
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Pasta </a><p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+	
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+	
+					  <tr>
+						<td>
+						  <img src="images/pizza4.png" alt="" width="200">
+						</td>
+						<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+						  <hr>
+						  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+						</td>
+					  </tr>
+					</table>
+				  </div>
+				 </div>
+				</div>
+		  
+				<div class="tab-pane fade py-2" id="profile-just" role="tabpanel" aria-labelledby="profile-tab-just">
+				 <div class="row">
+					 <div class="col-md-6">
+						<table>
+							<tr>
+							  <td>
+								<img src="images/pizza3.png" alt="" width="200">
+							  </td>
+							  <td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								<hr>
+								<p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+							  </td>
+							</tr>
+	
+							<tr>
+								<td>
+								  <img src="images/pizza3.png" alt="" width="200">
+								</td>
+								<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								  <hr>
+								  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+								</td>
+							  </tr>
+	
+							  <tr>
+								<td>
+								  <img src="images/pizza3.png" alt="" width="200">
+								</td>
+								<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								  <hr>
+								  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+								</td>
+							  </tr>
+						  </table>
+					 </div>
+					 <div class="col-md-6">
+						<table>
+							<tr>
+							  <td>
+								<img src="images/pizza3.png" alt="" width="200">
+							  </td>
+							  <td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								<hr>
+								<p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+							  </td>
+							</tr>
+	
+							<tr>
+								<td>
+								  <img src="images/pizza3.png" alt="" width="200">
+								</td>
+								<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								  <hr>
+								  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+								</td>
+							  </tr>
+	
+							  <tr>
+								<td>
+								  <img src="images/pizza3.png" alt="" width="200">
+								</td>
+								<td><h5><a href="#"> Vegetarian </a><p class="float-right">$21.00 -$25.00</p></h5>
+								  <hr>
+								  <p>Chicken ,Onion , Mushroom , Bacon,BBQ sauce</p>
+								</td>
+							  </tr>	
+						  </table>
+					 </div>
+				 </div>
+				</div>
+	
+	
+				<div class="tab-pane fade pb-3 p-2" id="contact-just" role="tabpanel" aria-labelledby="contact-tab-just">
+				  <div class="row">
+					<div class="col-md-6">
+						<table>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt="" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt="" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt="" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+						</table>
+	
+					</div>
+					<div class="col-md-6">
+						<table>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt=""  class="rounded-img" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt="" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+							<tr>
+								<td><img src="images/colod drink.jpg" alt="" width="200"></td>
+								<td><h5>Blue tea <p class="float-right">$21.00 -$25.00</p></h5>
+									<hr>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ratione possimus. Vel sed dicta esse odit distinctio ducimus nobis excepturi? Dolor, nesciunt? Amet similique odit aliquid possimus fugiat iste enim?</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				  </div>
+				</div>
+				<div class="row"	>
+					<div class="col-12 d-flex justify-content-center pb-3">
+						<a href="#" class="btn btn-danger" style="border-radius:30px;">EXPLORE MENU</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end tabs-->
+
+	<!--service-->
+	<div class="container">
+		<div class="row">
+			<div class="col d-flex justify-content-center py-4">
+				<h1><span class="text-danger"><em>Our Services</em></span></h1>
+			</div>
+		</div>
+		<div class="row ">
+
+			<div class="card col-md-4 d-flex justify-content-center  p-4	">
+				<div class=" text-center">
+					<img src="images/iconfinder_Shipping_Delivery_Truck_Fast_4075944.png" style=" background-color: red;" alt="shopping" class="" width="120">
+					<div class="row justify-content-center pt-3">
+						<h3 ><a href="free.html"><span class="text-danger">FREE DELIVERY</span></a></h3>
+
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro laborum quasi eum laboriosam perspiciatis quisquam dolore error. Rem, id dicta! Animi quis sit voluptatum hic maiores consequatur officiis doloremque?</p>
+						
+					</div>
+					<a href="free.html"><span>READ MORE</span></a>
+					
+				</div>
+				
+			</div>
+
+			<div class="card col-md-4 d-flex justify-content-center p-4" >
+				<div class=" text-center ">
+					<img src="images/promotion.png" style=" background-color: red;" alt="shopping" class="p-3" height="120" width="140">
+					<div class="row justify-content-center pt-3">
+						<h3 class="text-center"><a href="free.html"><span class="text-danger">PROMOTION	</span></a></h3>
+
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro laborum quasi eum laboriosam perspiciatis quisquam dolore error. Rem, id dicta! Animi quis sit voluptatum hic maiores consequatur officiis doloremque?</p>
+						
+					</div>
+					<a href="free.html"><span>READ MORE</span></a>
+					
+				</div>
+				
+			</div>
+
+			<div class="card col-md-4 d-flex justify-content-center p-4" >
+				<div class=" text-center">
+					<img src="images/iconfinder_Shipping_Delivery_Truck_Fast_4075944.png" style=" background-color: red;" alt="shopping" class="" width="120">
+					<div class="row justify-content-center pt-3">
+						<h3 class="text-center"><a href="free.html"><span>FREE DELIVERY</span></a></h3>
+
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro laborum quasi eum laboriosam perspiciatis quisquam dolore error. Rem, id dicta! Animi quis sit voluptatum hic maiores consequatur officiis doloremque?</p>
+						
+					</div>
+					<a href="free.html"><span>READ MORE</span></a>
+					
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+	<!--end service-->
+
+	<!--contact-->
+	<div id="contact1" class="py-5 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text	-center">
+					<h1><em>CONTACT US</em></h1>
+					<p>We are a second-generation family business established in 1972</p><br>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-7">
+					<div class="left">
+						<h2 ><span style="text-decoration-line:underline;text-decoration-style:solid; text-decoration-color: red;">Leave </span>us a Message</h2>
+						<p>Aenean massa diam, viverra vitae luctus sed, gravida eget est. Etiam nec ipsum porttitor, consequat libero eu, dignissim eros. Nulla auctor lacinia enim id mollis.
+
+						</p>
+					</div>
+				</div>
+				<div class="col-4 text-center">
+					<div class="right ">
+						<h1><span style="text-decoration-line:underline;text-decoration-style:solid; text-decoration-color: red;">Our Address</span></h1>
+						<p>52st,Hleden Yangon,</p>
+						<p>Support (+95) 401 800 604</p>
+						<p>E-mail: info@pizzaro.com</p>
+						<div>
+							<h2>Opening Hours</h2>
+						<table class="d-flex justify-content-center">
+							<tr>
+								<td>
+									Monday
+								</td>
+								<td>
+									12-6 PM
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Tuesday
+								</td>
+								<td>
+									12-6 PM
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Wednesday
+								</td>
+								<td>
+									12-6 PM
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Thursday
+								</td>
+								<td>
+									12-6 PM
+								</td>
+							</tr>
+							<tr>
+								<td>
+									FRIDAY
+								</td>
+								<td>
+									12-6 PM
+								</td>
+							</tr>
+						</table>
+						</div>
+						<div class="">
+							<h3>Careers</h3>
+							<p>If you are interested in employment opportunities<br> at Pizzaro, please email us:</p>
+							<h3><a href="#"><span class="text-dangr">contact@abcdefg.com</span></a></h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end contact-->
+	<footer class="bg-dark text-white py-3">
+		<div class="container">
+		 <div class="row">
+		   <div class="col-12 text-center">
+			 <img src="images/pizza-logo111.jpg" alt="logo" class="img-fluid">
+		   </div>
+		   <div class="col-12 text-center">
+			 <p>Pizza Pestaurant   ||  Free delivery on everyday  ||  Telephone + 95 401 258 911    </p>
+			 <p></p>
+			 <p>Copyright &copy; 2020 Pizza  </p>
+		   </div>
+		   <div class="col-12 text-center px-3">
+			 <span><i class="fab fa-facebook fa-2x text-white"></i></span>
+			 <span><i class="fab fa-twitter fa-2x"></i></span>
+			 <span><i class="fab fa-instagram fa-2x "></i></span>
+		   </div>
+		 </div>
+		</div>
+	  </footer>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+</body>
+
+</html>
